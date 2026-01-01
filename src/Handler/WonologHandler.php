@@ -94,9 +94,6 @@ class WonologHandler extends AbstractHandler
             $context['extra'] = $record->extra;
         }
 
-        // Add datetime (following Wonolog's convention)
-        $context['datetime'] = $record->datetime;
-
         // BUGFIX: Wonolog v2.x/v3.x PSR-3 placeholder substitution compatibility
         //
         // HookLogFactory::fromString() wraps context as $arguments = [0 => $context],
