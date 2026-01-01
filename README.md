@@ -5,7 +5,6 @@
 ![Coverage Status](https://img.shields.io/codecov/c/github/wp-spaghetti/wonolog-handler)
 ![Known Vulnerabilities](https://snyk.io/test/github/wp-spaghetti/wonolog-handler/badge.svg)
 ![GitHub Issues](https://img.shields.io/github/issues/wp-spaghetti/wonolog-handler)
-
 ![GitHub Release](https://img.shields.io/github/v/release/wp-spaghetti/wonolog-handler)
 ![License](https://img.shields.io/github/license/wp-spaghetti/wonolog-handler)
 <!--
@@ -19,7 +18,7 @@ Qlty @see https://github.com/badges/shields/issues/11192
 
 Monolog handler that forwards Laravel logs to [Inpsyde's Wonolog](https://github.com/inpsyde/Wonolog) - the professional WordPress logging solution.
 
-Works with any Laravel + WordPress setup: [Acorn](https://github.com/roots/acorn) (w/ or w/o [Sage](https://github.com/roots/sage)), [WP Starter](https://wpstarter.dev/), [Corcel](https://github.com/corcel/corcel), or custom integrations.
+Works with any Laravel + WordPress setup: [Acorn](https://github.com/roots/acorn) (w/wo [Sage](https://github.com/roots/sage)), [WP Starter](https://wpstarter.dev/), [Corcel](https://github.com/corcel/corcel), or custom integrations.
 
 ## Features
 

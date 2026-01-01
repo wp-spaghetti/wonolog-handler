@@ -1,6 +1,6 @@
 {
   "name": "wp-spaghetti/wonolog-handler",
-  "description": "",
+  "description": "Monolog handler that forwards Laravel logs to Inpsyde's Wonolog - works with any Laravel + WordPress setup: Acorn (w/wo Sage), WP Starter, Corcel, or custom integrations",
   "license": "GPL-3.0-or-later",
   "type": "library",
   "keywords": [
@@ -67,7 +67,7 @@
     "sort-packages": true
   },
   "extra": {
-    "acorn": {
+    "laravel": {
       "providers": [
         "WpSpaghetti\\WonologHandler\\WonologServiceProvider"
       ]
