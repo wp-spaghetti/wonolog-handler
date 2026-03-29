@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace WpSpaghetti\WonologHandler\Handler;
 
 use Monolog\Handler\AbstractHandler;
+use Monolog\Level;
 use Monolog\LogRecord;
 use WpSpaghetti\WonologHandler\Support\WonologDetector;
 
@@ -37,7 +38,7 @@ class WonologHandler extends AbstractHandler
     private string $action;
 
     public function __construct(
-        int|string|\Monolog\Level $level = \Monolog\Level::Debug,
+        int|string|Level $level = Level::Debug,
         bool $bubble = true,
         ?WonologDetector $detector = null
     ) {

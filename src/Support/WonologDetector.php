@@ -60,6 +60,10 @@ class WonologDetector
             ? \apply_filters('wonolog_handler.namespace', $default)
             : $default;
 
+        // Normalize double backslashes from env/config into single backslashes,
+        // since PHP class names use single backslashes as namespace separators
+        $namespace = \str_replace('\\\\', '\\', $namespace);
+
         $this->namespaceCache = $namespace;
 
         return $this->namespaceCache;

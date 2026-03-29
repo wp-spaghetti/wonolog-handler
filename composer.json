@@ -74,8 +74,8 @@
     }
   },
   "scripts": {
-    "pint": "pint",
-    "pint:test": "pint --test",
+    "lint": "pint --test",
+    "lint:fix": "pint",
     "test": "phpunit"
   }
 }
