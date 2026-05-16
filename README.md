@@ -32,7 +32,7 @@ Works with any Laravel + WordPress setup: [Acorn](https://github.com/roots/acorn
 
 - PHP >= 8.2
 - WordPress >= 6.0
-- Laravel Illuminate/Support ^10.0|^11.0|^12.0
+- Laravel Illuminate/Support ^10.0|^11.0|^12.0|^13.0
 - Monolog ^2.0|^3.0
 
 **Note:** Inpsyde's Wonolog is **not** required for the package to work. Without Wonolog, logs gracefully pass through to other handlers in your stack (e.g., file logging).
